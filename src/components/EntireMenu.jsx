@@ -18,6 +18,8 @@ import ThinCrustPie from './menu-sections/ThinCrustPie';
 import Vegetarian from './menu-sections/Vegetarian';
 import WholeWheatPizza from './menu-sections/WholeWheatPizza';
 import Wraps from './menu-sections/Wraps';
+import Pizza from './menu-sections/Pizza';
+
 
 export default function EntireMenu() {
   return (
