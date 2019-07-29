@@ -1,25 +1,10 @@
-import React from 'React'
-
-class PreMenu extends React.Component() {
-  return(
+import React from 'react'
 
 
-
-
-
-
-
-
-
-
-
-
-
-  )
-
-
-
-
-
+export default () => {
+  return (
+    <>
+      
+    </>
+  );
 }
-export default PreMenu;
