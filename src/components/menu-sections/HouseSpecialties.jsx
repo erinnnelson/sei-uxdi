@@ -1,12 +1,16 @@
 import React from 'react';
 
+import image from '../../assets/menu-images/HouseSpecialties.png';
+
 export default function HouseSpecialties() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>House Specialties</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="house specialties" />
       </div>
       <div className="section-content">
         <p>Calzone (cheese, spinach, or vegetable) <span>$4.50</span></p>
