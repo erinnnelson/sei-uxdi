@@ -16,7 +16,7 @@ export default function IsraeliSpecialties() {
         <p>Falafel (whole) <span>$5.50</span></p>
         <p>Falafel Lafal <span>$7.50</span></p>
         <p>Falafel Ball <span>$0.35</span></p>
-        <p>Extra $0.50 for Israeli Salad or extra pita bread</p>
+        <p>* Extra $0.50 for Israeli Salad or extra pita bread</p>
       </div>
     </div>
   )
