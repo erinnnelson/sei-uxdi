@@ -57,14 +57,26 @@ hr {
   margin:30px;
 }
 
-
 .section-content p, .section-content h2 {
   display:flex;
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
 }
+
+.section-content p {
+  font-size: 2em;
+  text-overflow: wrap;
+}
+
 .section-content p span, .section-content h2 span {
-  width: 23.3%;
+  width: 26.7%;
+    display: block;
+    text-align: left;
+}
+
+.section-content h2 {
+  font-weight: 700;
+  margin-bottom: 25px;
 }
 
 /* //////ABOUT US////// */

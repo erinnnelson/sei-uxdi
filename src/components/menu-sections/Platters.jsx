@@ -12,9 +12,9 @@ export default function Platters() {
         <img src={image} alt="platters" />
       </div>
       <div className="section-content">
-        <p>Chumus <span>$8.00</span></p>
-        <p>Babaganoush <span>$8.00</span></p>
-        <p>Combination (chumus, babagamoush, turkish salad, pita, salad, falafel balls) <span>$8.00</span></p>
+        <p><span>Chumus</span><span>$8.00</span></p>
+        <p><span>Babaganoush</span><span>$8.00</span></p>
+        <p><span>Combination (chumus, babagamoush, turkish salad, pita, salad, falafel balls)</span><span>$8.00</span></p>
       </div>
     </div>
   )

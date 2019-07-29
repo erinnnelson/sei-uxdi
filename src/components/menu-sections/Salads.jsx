@@ -13,15 +13,15 @@ export default function Salads() {
         <img src={image} alt="salads" />
       </div>
       <div className="section-content">
-        <h2 className="section-content-title"><span>Small</span> <span>Large</span></h2>
-        <p>Regular Salad <span>$4.00</span><span>$5.50</span></p>
-        <p>Greek Salad <span>$8.00</span></p>
-        <p>Israeli Salad <span>$5.00</span><span>$7.00</span></p>
-        <p>Caesar Salad <span>$7.00</span></p>
-        <p>Tuna Salad Plate <span>$9.00</span></p>
-        <p>Egg Salad Plate <span>$7.00</span></p>
-        <p>Vegetable Tuna Salad <span>$9.00</span></p>
-        <p>Mandarin Salad <span>$7.00</span></p>
+        <h2 className="section-content-title"><span></span><span>Small</span> <span>Large</span></h2>
+        <p><span>Regular Salad</span><span>$4.00</span><span>$5.50</span></p>
+        <p><span>Greek Salad</span><span>$8.00</span></p>
+        <p><span>Israeli Salad</span><span>$5.00</span><span>$7.00</span></p>
+        <p><span>Caesar Salad</span><span>$7.00</span></p>
+        <p><span>Tuna Salad Plate</span><span>$9.00</span></p>
+        <p><span>Egg Salad Plate</span><span>$7.00</span></p>
+        <p><span>Vegetable Tuna Salad</span><span>$9.00</span></p>
+        <p><span>Mandarin Salad</span><span>$7.00</span></p>
 
       </div>
     </div>
