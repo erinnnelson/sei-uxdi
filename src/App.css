@@ -3,7 +3,8 @@
 body{
   text-align: center;
   margin: 0 auto;
-  width: 50%
+  width: 50%;
+  font-family: 'Pragati Narrow', sans-serif;
 }
 
 /* //////HEADER/HERO/////// */
@@ -47,6 +48,7 @@ hr {
 
 .section-image img {
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .section-title {
@@ -55,11 +57,15 @@ hr {
   margin:30px;
 }
 
-.section-content p {
+
+.section-content p, .section-content h2 {
   display:flex;
   justify-content: space-between;
+  width: 70%;
 }
-
+.section-content p span, .section-content h2 span {
+  width: 23.3%;
+}
 
 /* //////ABOUT US////// */
 
