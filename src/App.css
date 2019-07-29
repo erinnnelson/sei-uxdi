@@ -3,13 +3,14 @@
 body{
   text-align: center;
   margin: 0 auto;
-  width: 50%
+  width: 50%;
+  font-family: 'Pragati Narrow', sans-serif;
 }
 
 /* //////HEADER/HERO/////// */
 
 #nav-buttons {
-  display: flex
+  display: flex;
 }
 
 .nav-button {
@@ -35,19 +36,48 @@ border-right: 1px solid white;
 
 
 /* //////MENU////// */
+
 hr {
-  border: 10px solid #A6020E;
-  border-radius: 5px;
+  border: 9px solid #A6020E;
+  /* border-radius: 5px; */
 }
 
-.section-image {
-  margin: 10px auto;
+/* .menu-section-item {
+  display: flex;
+} */
+
+.section-image img {
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 .section-title {
   color: #A6020E;
+  text-align: left;
+  margin:30px;
 }
 
+.section-content p, .section-content h2 {
+  display:flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.section-content p {
+  font-size: 2em;
+  text-overflow: wrap;
+}
+
+.section-content p span, .section-content h2 span {
+  width: 26.7%;
+    display: block;
+    text-align: left;
+}
+
+.section-content h2 {
+  font-weight: 700;
+  margin-bottom: 25px;
+}
 
 /* //////ABOUT US////// */
 
