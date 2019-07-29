@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './App.css';
-import Carousel from './components/HeroCarousel'
 import HeroInfo from './components/HeroInfo'
 import HeroCarousel from './components/HeroCarousel'
 import NavBar from './components/NavBar'
@@ -30,12 +29,11 @@ class App extends React.Component {
           <NavBar />
         </header>
         <main>
-          {/* <PreMenu /> */}
           <EntireMenu />
-          {/* <AboutUs /> */}
+          <AboutUs />
         </main>
         <footer>
-          {/* <Footer /> */}
+          <Footer />
         </footer>
       </div>
     );
