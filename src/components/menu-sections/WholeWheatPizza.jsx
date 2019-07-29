@@ -1,12 +1,16 @@
 import React from 'react';
+import image from '../../assets/menu-images/WholeWheatPizza.png';
+
 
 export default function WholeWheatPiza() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Whole Wheat Pizza</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="whole wheat pizza" />
       </div>
       <div className="section-content">
         <h2 className="section-content-title">Slice <span> 18" Large Pie</span></h2>
