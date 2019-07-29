@@ -1,3 +1,4 @@
+
 /* //////FULL PAGE////// */
 body{
   text-align: center;
@@ -34,9 +35,26 @@ border-right: 1px solid white;
 
 
 /* //////MENU////// */
+hr {
+  border: 10px solid #A6020E;
+  border-radius: 5px;
+}
+
+.section-image {
+  margin: 10px auto;
+}
+
+.section-title {
+  color: #A6020E;
+}
 
 
 /* //////ABOUT US////// */
 
 
 /* //////FOOTER////// */
+
+
+
+
+

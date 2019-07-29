@@ -1,12 +1,16 @@
 import React from 'react';
 
+import image from '../../assets/menu-images/Salads.png';
+
 export default function Salads() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Salads</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="salads" />
       </div>
       <div className="section-content">
         <h2 className="section-content-title">Small <span>Large</span></h2>

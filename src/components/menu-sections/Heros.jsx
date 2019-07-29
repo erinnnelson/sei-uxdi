@@ -1,12 +1,15 @@
 import React from 'react';
+import image from '../../assets/menu-images/Heroes.png';
 
 export default function Heros() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Heros</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="heros" />
       </div>
       <div className="section-content">
         <p>Vegetable Cutlet Parmigiana <span>$6.00</span></p>
