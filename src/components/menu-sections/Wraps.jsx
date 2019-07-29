@@ -9,7 +9,7 @@ export default function Wraps() {
         <h2>Wraps</h2>
       </div>
       <div className="section-image">
-        <img src={image} alt="vegetarian stuff" />
+        <img src={image} alt="wraps" />
       </div>
       <div className="section-content">
         <p>Tuna <span>$2.75</span></p>

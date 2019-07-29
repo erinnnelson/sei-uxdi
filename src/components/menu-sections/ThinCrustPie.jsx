@@ -9,7 +9,7 @@ export default function ThinCrustPie() {
         <h2>Thin Crust Pie (Individual) </h2>
       </div>
       <div className="section-image">
-        <img src={image} alt="vegetarian stuff" />
+        <img src={image} alt="thin crust pie" />
       </div>
       <div className="section-content">
         <p>Regular <span>$5.50</span></p>

@@ -8,7 +8,7 @@ export default function Heros() {
         <h2>Heros</h2>
       </div>
       <div className="section-image">
-        <img src={image} alt="heroes" />
+        <img src={image} alt="heros" />
       </div>
       <div className="section-content">
         <p>Vegetable Cutlet Parmigiana <span>$6.00</span></p>

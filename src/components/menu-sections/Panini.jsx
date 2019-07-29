@@ -9,7 +9,7 @@ export default function Panini() {
         <h2>Panini - Hot Pressed Sandwiches</h2>
       </div>
       <div className="section-image">
-        <img src={image} alt="platters" />
+        <img src={image} alt="panini" />
       </div>
       <div className="section-content">
         <p>Fresh Mozzarella with Tomato & Basil <span>$6.95</span></p>
