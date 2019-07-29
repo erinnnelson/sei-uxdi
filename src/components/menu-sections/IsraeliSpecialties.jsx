@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/menu-images/Israeli_Specialties.png';
 
 export default function IsraeliSpecialties() {
   return (
@@ -7,6 +8,7 @@ export default function IsraeliSpecialties() {
         <h2>Israeli Specialties</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="Israeli Specialties" />
       </div>
       <div className="section-content">
         <p>Falafel (half) <span>$3.00</span></p>

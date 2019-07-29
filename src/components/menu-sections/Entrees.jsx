@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/menu-images/Entrees.png';
 
 export default function Entrees() {
   return (
@@ -7,6 +8,7 @@ export default function Entrees() {
         <h2>Entrees</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="entrees" />
       </div>
       <div className="section-content">
         <p>Rollatini <span>$9.00</span></p>

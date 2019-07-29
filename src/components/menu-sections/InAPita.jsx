@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/menu-images/In_A_Pita.png';
 
 export default function InAPita() {
   return (
@@ -7,6 +8,7 @@ export default function InAPita() {
         <h2>In A Pita</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="vegetarian stuff" />
       </div>
       <div className="section-content">
         <p>Chumus <span>$4.00</span></p>

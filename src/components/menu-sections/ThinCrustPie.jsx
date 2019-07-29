@@ -1,5 +1,7 @@
 import React from 'react';
 
+import image from '../../assets/menu-images/ThinCrust.png';
+
 export default function ThinCrustPie() {
   return (
     <div className="menu-section-item">
@@ -7,6 +9,7 @@ export default function ThinCrustPie() {
         <h2>Thin Crust Pie (Individual) </h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="vegetarian stuff" />
       </div>
       <div className="section-content">
         <p>Regular <span>$5.50</span></p>

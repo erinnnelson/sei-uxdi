@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/menu-images/Side_Orders.png';
 
 export default function SideOrders() {
   return (
@@ -7,6 +8,7 @@ export default function SideOrders() {
         <h2>Side Orders</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="side orders" />
       </div>
       <div className="section-content">
         <p>French Fries <span>$2.75</span></p>

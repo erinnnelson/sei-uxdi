@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/menu-images/Eggs.png';
 
 export default function Eggs() {
   return (
@@ -7,6 +8,7 @@ export default function Eggs() {
         <h2>Eggs</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="eggs" />
       </div>
       <div className="section-content">
         <p>Shakshuka <span>$7.00</span></p>

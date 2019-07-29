@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/menu-images/Fish.png';
 
 export default function Fish() {
   return (
@@ -7,6 +8,7 @@ export default function Fish() {
         <h2>Fish</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="fish" />
       </div>
       <div className="section-content">
         <p>Fried Whiting Fish (with salad or fries) <span>$8.00</span></p>

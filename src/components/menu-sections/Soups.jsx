@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/menu-images/Soups.png';
 
 export default function Soups() {
   return (
@@ -7,6 +8,7 @@ export default function Soups() {
         <h2>Soups</h2>
       </div>
       <div className="section-image">
+        <img src={image} alt="soups" />
       </div>
       <div className="section-content">
         <p>French Onion <span>$4.00</span></p>
