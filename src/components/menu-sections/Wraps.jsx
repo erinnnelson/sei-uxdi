@@ -5,6 +5,7 @@ import image from '../../assets/menu-images/Wraps.png';
 export default function Wraps() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Wraps</h2>
       </div>

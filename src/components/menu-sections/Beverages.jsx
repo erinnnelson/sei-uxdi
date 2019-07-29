@@ -3,6 +3,7 @@ import React from 'react';
 export default function Beverages() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Beverages</h2>
       </div>

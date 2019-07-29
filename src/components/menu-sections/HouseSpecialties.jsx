@@ -5,6 +5,7 @@ import image from '../../assets/menu-images/HouseSpecialties.png';
 export default function HouseSpecialties() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>House Specialties</h2>
       </div>

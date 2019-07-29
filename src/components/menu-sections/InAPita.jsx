@@ -4,6 +4,7 @@ import image from '../../assets/menu-images/In_A_Pita.png';
 export default function InAPita() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>In A Pita</h2>
       </div>

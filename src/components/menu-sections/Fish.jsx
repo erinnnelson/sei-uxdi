@@ -4,6 +4,7 @@ import image from '../../assets/menu-images/Fish.png';
 export default function Fish() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Fish</h2>
       </div>

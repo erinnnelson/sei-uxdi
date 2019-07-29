@@ -4,6 +4,7 @@ import image from '../../assets/menu-images/Eggs.png';
 export default function Eggs() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Eggs</h2>
       </div>

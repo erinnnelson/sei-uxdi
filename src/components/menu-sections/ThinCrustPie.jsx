@@ -5,6 +5,7 @@ import image from '../../assets/menu-images/ThinCrust.png';
 export default function ThinCrustPie() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Thin Crust Pie (Individual) </h2>
       </div>

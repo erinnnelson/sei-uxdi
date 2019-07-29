@@ -5,6 +5,7 @@ import image from '../../assets/menu-images/WholeWheatPizza.png';
 export default function WholeWheatPiza() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Whole Wheat Pizza</h2>
       </div>

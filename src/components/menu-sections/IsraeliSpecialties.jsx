@@ -4,6 +4,7 @@ import image from '../../assets/menu-images/Israeli_Specialties.png';
 export default function IsraeliSpecialties() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Israeli Specialties</h2>
       </div>

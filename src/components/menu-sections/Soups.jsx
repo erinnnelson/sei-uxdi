@@ -4,6 +4,7 @@ import image from '../../assets/menu-images/Soups.png';
 export default function Soups() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Soups</h2>
       </div>

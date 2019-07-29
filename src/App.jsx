@@ -8,6 +8,8 @@ import EntireMenu from './components/EntireMenu';
 import AboutUs from './components/AboutUs';
 import Footer from './components/Footer';
 
+import "./App.css";
+
 class App extends React.Component {
   constructor() {
     super()

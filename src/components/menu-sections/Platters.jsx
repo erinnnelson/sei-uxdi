@@ -4,6 +4,7 @@ import image from '../../assets/menu-images/Platters.png';
 export default function Platters() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Platters</h2>
       </div>

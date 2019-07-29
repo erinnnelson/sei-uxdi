@@ -5,6 +5,7 @@ import image from '../../assets/menu-images/Salads.png';
 export default function Salads() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Salads</h2>
       </div>

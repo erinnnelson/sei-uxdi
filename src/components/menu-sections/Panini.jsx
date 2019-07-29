@@ -5,6 +5,7 @@ import image from '../../assets/menu-images/Panini.png';
 export default function Panini() {
   return (
     <div className="menu-section-item">
+      <hr />
       <div className="section-title">
         <h2>Panini - Hot Pressed Sandwiches</h2>
       </div>
