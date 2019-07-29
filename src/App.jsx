@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Carousel from './components/HeroCarousel'
 import HeroInfo from './components/HeroInfo'
 import HeroCarousel from './components/HeroCarousel'

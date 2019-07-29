@@ -1,0 +1,42 @@
+/* //////FULL PAGE////// */
+body{
+  text-align: center;
+  margin: 0 auto;
+  width: 50%
+}
+
+/* //////HEADER/HERO/////// */
+
+#nav-buttons {
+  display: flex
+}
+
+.nav-button {
+  width: 50%;
+  color: white;
+  border: none;
+}
+
+#nav-dropdown {
+width: 100%;
+border: none;
+border-right: 1px solid white;
+}
+
+#nav-button-about, #nav-dropdown {
+  border-radius: 0;
+  background-color: red;
+  outline: none;
+  box-shadow: none;
+}
+
+/* //////NAV BAR////// */
+
+
+/* //////MENU////// */
+
+
+/* //////ABOUT US////// */
+
+
+/* //////FOOTER////// */
