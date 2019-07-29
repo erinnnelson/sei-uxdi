@@ -27,10 +27,10 @@ class App extends React.Component {
         <main>
           {/* <PreMenu /> */}
           {/* <EntireMenu /> */}
-          {/* <AboutUs /> */}
+          <AboutUs />
         </main>
         <footer>
-          {/* <Footer /> */}
+          <Footer />
         </footer>
       </div>
     );
