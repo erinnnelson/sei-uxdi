@@ -4,8 +4,8 @@ import { Dropdown, DropdownButton } from 'react-bootstrap';
 
 export default () => {
   return (
-    <>
-      <DropdownButton id="nav-dropdown" classname="nav-button" title="MENU ▼">
+    <div id="nav-buttons">
+      <DropdownButton id="nav-dropdown" className="nav-button" title="MENU" drop="up">
         <Dropdown.Item as="button">Pizza</Dropdown.Item>
         <Dropdown.Item as="button">Thin Crust Pie (Individaul)</Dropdown.Item>
         <Dropdown.Item as="button">Whole Wheat Pizza</Dropdown.Item>
@@ -27,7 +27,7 @@ export default () => {
         <Dropdown.Item as="button">Beverages</Dropdown.Item>
         <Dropdown.Item as="button">Desserts</Dropdown.Item>
       </DropdownButton>
-      <button id="nav-button-about" classname="nav-button">ABOUT US</button>
-    </>
+      <button id="nav-button-about" className="nav-button">ABOUT US</button>
+    </div>
   );
 }

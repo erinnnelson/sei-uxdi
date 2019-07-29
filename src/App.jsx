@@ -1,14 +1,17 @@
 import React from 'react';
-import Carousel from './components/HeroCarousel';
-import HeroInfo from './components/HeroInfo';
-import HeroCarousel from './components/HeroCarousel';
-import NavBar from './components/NavBar';
-import PreMenu from './components/PreMenu';
-import EntireMenu from './components/EntireMenu';
-import AboutUs from './components/AboutUs';
-import Footer from './components/Footer';
+
+import './App.css';
+import Carousel from './components/HeroCarousel'
+import HeroInfo from './components/HeroInfo'
+import HeroCarousel from './components/HeroCarousel'
+import NavBar from './components/NavBar'
+import PreMenu from './components/PreMenu'
+import EntireMenu from './components/EntireMenu'
+import AboutUs from './components/AboutUs'
+import Footer from './components/Footer'
 
 import "./App.css";
+
 
 class App extends React.Component {
   constructor() {
