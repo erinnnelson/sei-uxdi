@@ -20,13 +20,13 @@ class App extends React.Component {
       <div className="App">
         <header>
           <HeroInfo />
-          <Carousel />
+          {/* <Carousel /> */}
           <NavBar />
         </header>
         <main>
-          <PreMenu />
-          <EntireMenu />
-          <AboutUs />
+          {/* <PreMenu /> */}
+          {/* <EntireMenu /> */}
+          {/* <AboutUs /> */}
         </main>
         <footer>
           <Footer />
