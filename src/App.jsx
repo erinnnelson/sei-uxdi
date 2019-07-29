@@ -1,6 +1,7 @@
 import React from 'react';
+import Carousel from './components/HeroCarousel'
 import HeroInfo from './components/HeroInfo'
-import Carousel from './components/Carousel'
+import HeroCarousel from './components/HeroCarousel'
 import NavBar from './components/NavBar'
 import PreMenu from './components/PreMenu'
 import EntireMenu from './components/EntireMenu'
@@ -20,7 +21,7 @@ class App extends React.Component {
       <div className="App">
         <header>
           <HeroInfo />
-          {/* <Carousel /> */}
+          <HeroCarousel />
           <NavBar />
         </header>
         <main>
@@ -29,7 +30,7 @@ class App extends React.Component {
           {/* <AboutUs /> */}
         </main>
         <footer>
-          <Footer />
+          {/* <Footer /> */}
         </footer>
       </div>
     );
