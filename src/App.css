@@ -9,7 +9,7 @@ body{
 /* //////HEADER/HERO/////// */
 
 #nav-buttons {
-  display: flex
+  display: flex;
 }
 
 .nav-button {
@@ -35,17 +35,29 @@ border-right: 1px solid white;
 
 
 /* //////MENU////// */
+
 hr {
-  border: 10px solid #A6020E;
-  border-radius: 5px;
+  border: 9px solid #A6020E;
+  /* border-radius: 5px; */
 }
 
-.section-image {
-  margin: 10px auto;
+/* .menu-section-item {
+  display: flex;
+} */
+
+.section-image img {
+  width: 100%;
 }
 
 .section-title {
   color: #A6020E;
+  text-align: left;
+  margin:30px;
+}
+
+.section-content p {
+  display:flex;
+  justify-content: space-between;
 }
 
 
