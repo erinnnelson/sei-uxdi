@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from './components/HeroCarousel'
 
 class App extends React.Component {
   constructor() {
@@ -12,17 +13,17 @@ class App extends React.Component {
     return (
       <div className="App">
         <header>
-          <HeroInfo />
+          {/* <HeroInfo /> */}
           <Carousel />
-          <NavBar />
+          {/* <NavBar /> */}
         </header>
         <main>
-          <PreMenu />
-          <Menu />
-          <AboutUs />
+          {/* <PreMenu /> */}
+          {/* <Menu /> */}
+          {/* <AboutUs /> */}
         </main>
         <footer>
-          <Footer />
+          {/* <Footer /> */}
         </footer>
       </div>
     );
