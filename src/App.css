@@ -64,7 +64,7 @@ hr {
 .section-content p, .section-content h2 {
   display:flex;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
 }
 
 .section-content p {
