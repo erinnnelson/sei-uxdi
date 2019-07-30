@@ -6,7 +6,7 @@ export default function Panini() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div className="section-title">
+      <div id="panini" className="section-title">
         <h2>Panini - Hot Pressed Sandwiches</h2>
       </div>
       <div className="section-image">

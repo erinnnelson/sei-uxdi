@@ -5,7 +5,7 @@ export default function Desserts() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div className="section-title">
+      <div id="desserts" className="section-title">
         <h2>Desserts</h2>
       </div>
       <div className="section-image">

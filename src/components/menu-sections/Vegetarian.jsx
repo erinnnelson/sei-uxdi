@@ -3,7 +3,7 @@ import image from '../../assets/menu-images/Vegetarian.png';
 
 export default function Vegetarian() {
   return (
-    <div className="menu-section-item">
+    <div id="vegetarian" className="menu-section-item">
       <hr />
       <div className="section-title">
         <h2>Vegetarian</h2>
