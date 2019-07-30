@@ -57,6 +57,10 @@ hr {
   margin:30px;
 }
 
+.section-title h2 {
+  font-size: 3.5em;
+}
+
 .section-content p, .section-content h2 {
   display:flex;
   justify-content: space-between;
@@ -70,8 +74,8 @@ hr {
 
 .section-content p span, .section-content h2 span {
   width: 26.7%;
-    display: block;
-    text-align: left;
+  display: block;
+  text-align: left;
 }
 
 .section-content h2 {
