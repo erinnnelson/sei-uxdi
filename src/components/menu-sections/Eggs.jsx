@@ -5,7 +5,7 @@ export default function Eggs() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div className="section-title">
+      <div id="eggs" className="section-title">
         <h2>Eggs</h2>
       </div>
       <div className="section-image">

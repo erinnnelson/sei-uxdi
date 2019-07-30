@@ -5,7 +5,7 @@ export default function SideOrders() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div className="section-title">
+      <div id="sides" className="section-title">
         <h2>Side Orders</h2>
       </div>
       <div className="section-image">

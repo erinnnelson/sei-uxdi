@@ -6,7 +6,7 @@ export default function Salads() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div className="section-title">
+      <div id="salads" className="section-title">
         <h2>Salads</h2>
       </div>
       <div className="section-image">
