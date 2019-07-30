@@ -6,7 +6,7 @@ export default function ThinCrustPie() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div className="section-title">
+      <div id="thincrust" className="section-title">
         <h2>Thin Crust Pie (Individual) </h2>
       </div>
       <div className="section-image">

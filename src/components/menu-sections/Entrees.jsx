@@ -5,7 +5,7 @@ export default function Entrees() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div className="section-title">
+      <div id="entrees" className="section-title">
         <h2>Entrees</h2>
       </div>
       <div className="section-image">

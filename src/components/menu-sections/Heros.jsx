@@ -5,7 +5,7 @@ export default function Heros() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div className="section-title">
+      <div id="heros" className="section-title">
         <h2>Heros</h2>
       </div>
       <div className="section-image">

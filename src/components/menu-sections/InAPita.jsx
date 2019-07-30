@@ -5,7 +5,7 @@ export default function InAPita() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div className="section-title">
+      <div id="pita" className="section-title">
         <h2>In A Pita</h2>
       </div>
       <div className="section-image">
