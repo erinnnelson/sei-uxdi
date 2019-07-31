@@ -3,12 +3,13 @@ import image from '../../assets/menu-images/Vegetarian.png';
 
 export default function Vegetarian() {
   return (
-    <div id="vegetarian" className="menu-section-item">
+    <div className="menu-section-item">
       <hr />
       <div className="section-title">
         <h2>Vegetarian</h2>
       </div>
       <div className="section-image">
+        <div id="vegetarian" className="link-route-div"></div>
         <img src={image} alt="vegetarian stuff" />
       </div>
       <div className="section-content">

@@ -5,10 +5,11 @@ export default function Desserts() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="desserts" className="section-title">
+      <div className="section-title">
         <h2>Desserts</h2>
       </div>
       <div className="section-image">
+        <div id="desserts" className="link-route-div"></div>
         <img src={image} alt="desserts" />
       </div>
       <div className="section-content">
@@ -19,4 +20,4 @@ export default function Desserts() {
       </div>
     </div>
   )
- }
+}

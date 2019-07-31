@@ -3,12 +3,13 @@ import image from '../../assets/menu-images/Fish.png';
 
 export default function Fish() {
   return (
-    <div id="fish" className="menu-section-item">
+    <div className="menu-section-item">
       <hr />
       <div className="section-title">
         <h2>Fish</h2>
       </div>
       <div className="section-image">
+      <div id="fish" className="link-route-div"></div>
         <img src={image} alt="fish" />
       </div>
       <div className="section-content">

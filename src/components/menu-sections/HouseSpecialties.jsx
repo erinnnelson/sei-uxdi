@@ -6,10 +6,11 @@ export default function HouseSpecialties() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="housespecialties" className="section-title">
+      <div className="section-title">
         <h2>House Specialties</h2>
       </div>
       <div className="section-image">
+        <div id="specialties" className="link-route-div"></div>
         <img src={image} alt="house specialties" />
       </div>
       <div className="section-content">

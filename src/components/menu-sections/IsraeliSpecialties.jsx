@@ -5,10 +5,11 @@ export default function IsraeliSpecialties() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="israeli" className="section-title">
+      <div className="section-title">
         <h2>Israeli Specialties</h2>
       </div>
       <div className="section-image">
+        <div id="israeli" className="link-route-div"></div>
         <img src={image} alt="Israeli Specialties" />
       </div>
       <div className="section-content">

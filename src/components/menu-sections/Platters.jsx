@@ -5,10 +5,11 @@ export default function Platters() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="platters" className="section-title">
+      <div className="section-title">
         <h2>Platters</h2>
       </div>
       <div className="section-image">
+        <div id="platters" className="link-route-div"></div>
         <img src={image} alt="platters" />
       </div>
       <div className="section-content">

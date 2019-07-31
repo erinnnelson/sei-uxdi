@@ -6,10 +6,11 @@ export default function WholeWheatPiza() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="wholewheat" className="section-title">
+      <div className="section-title">
         <h2>Whole Wheat Pizza</h2>
       </div>
       <div className="section-image">
+        <div id="wholewheat" className="link-route-div"></div>
         <img src={image} alt="whole wheat pizza" />
       </div>
       <div className="section-content">
