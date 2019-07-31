@@ -8,7 +8,7 @@ export default () => {
     <div id="nav-buttons">
       <DropdownButton id="nav-dropdown" className="nav-button" title="MENU" drop="up">
         <Link to="/#pizza"><Dropdown.Item as="button">Pizza</Dropdown.Item></Link>
-        <Link to="/#thincrust"><Dropdown.Item as="button">Thin Crust Pie (Individaul)</Dropdown.Item></Link>
+        <Link to="/#thincrust"><Dropdown.Item as="button">Thin Crust Pie (Individual)</Dropdown.Item></Link>
         <Link to="/#wholewheat"><Dropdown.Item as="button">Whole Wheat Pizza</Dropdown.Item></Link>
         <Link to="/#entrees"><Dropdown.Item as="button">Entrees</Dropdown.Item></Link>
         <Link to="/#fish"><Dropdown.Item as="button">Fish</Dropdown.Item></Link>
