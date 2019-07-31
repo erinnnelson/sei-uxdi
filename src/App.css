@@ -49,14 +49,23 @@ header {
 }
 
 #nav-button-about {
-  
+  text-decoration: none;
+  line-height: 50px;
+}
+
+#nav-button-about:hover {
+  color: white;
 }
 
 #nav-button-about, #nav-dropdown {
   border-radius: 0;
+  height: 50px;
+  font-size: 24px;
+  letter-spacing: 1.34px;
   background-color: red;
   outline: none;
   box-shadow: none;
+  background-image: linear-gradient(to bottom, #f3616d, #a6020e);
 }
 
 /* //////NAV BAR////// */
