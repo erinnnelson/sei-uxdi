@@ -3,7 +3,7 @@ import './App.css';
 import HeroInfo from './components/HeroInfo'
 import HeroCarousel from './components/HeroCarousel'
 import NavBar from './components/NavBar'
-import PreMenu from './PreMenu'
+import PreMenu from './components/PreMenu'
 import EntireMenu from './components/EntireMenu'
 import AboutUs from './components/AboutUs'
 import Footer from './components/Footer'
@@ -26,9 +26,10 @@ class App extends React.Component {
         <header>
           <HeroInfo />
           <HeroCarousel />
-          <NavBar />
-          
         </header>
+        <nav>
+          <NavBar />
+        </nav>
         <main>
           <PreMenu />
           <EntireMenu />
