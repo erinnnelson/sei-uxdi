@@ -11,8 +11,15 @@ body{
 
 header {
   position: sticky;
-  top: -50.5em;
+  top: -39em;
   height: 100%;
+}
+
+#hero-info {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: white;
 }
 
 #hero-logo {
@@ -31,7 +38,7 @@ header {
 
 #nav-buttons {
   position: sticky;
-  top: 0;
+  top: 20em;
   z-index: 1;
   display: flex;
 }
