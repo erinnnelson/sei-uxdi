@@ -29,7 +29,7 @@ export default () => {
         <Link to="/#beverages"><Dropdown.Item as="button">Beverages</Dropdown.Item></Link>
         <Link to="/#desserts"><Dropdown.Item as="button">Desserts</Dropdown.Item></Link>
       </DropdownButton>
-      <button id="nav-button-about" className="nav-button">ABOUT US</button>
+      <Link id="nav-button-about" className="nav-button" to="/#about">ABOUT US</Link>
     </div>
   );
 }

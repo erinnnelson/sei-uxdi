@@ -3,7 +3,7 @@ import React from 'react'
 
 export default () => {
   return (
-    <>
+    <div id="about">
       <h1>About Us</h1>
       <p>Your one stop, neighborhood pizzeria in Fresh Meadows.
         We offer a full menu of Italian ,Israeli and Mediterranean specialties, as well as tempting dairy ddelights.
@@ -13,6 +13,6 @@ export default () => {
         *Benny's Kosher Pizza on Union Turnpike in Fresh Meadows is not affliated with any other pizza establishments.
 
       </p>
-    </>
+    </div>
   );
 } 
