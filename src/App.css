@@ -133,6 +133,7 @@ hr {
 /* //////FOOTER////// */
 footer {
 background-color: #A6020E;
+color: #F4F1F4;
 }
 
 #foot {
@@ -140,5 +141,52 @@ background-color: #A6020E;
   justify-content: space-between;
 }
 
+.footer-icon-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 26%;
+  margin-left: 37%;
+}
+
+.footer-title{
+  padding-top: 2%;
+  margin-bottom: 2%;
+}
+
+.footer-bottom-wrapper {
+  margin-top: 5%;
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.footer-icon {
+  background-color: #F4F1F4;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-icon img {
+  /* object-fit: cover; */
+  margin-top:5px;
+  width: 30px;
+  height: 30px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-address {
+  text-align: left;
+}
+
+.footer-copyright {
+  text-align: right;
+}
 
 
