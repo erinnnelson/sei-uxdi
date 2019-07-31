@@ -15,7 +15,7 @@ export default () => {
         <Link to="/#vegetarian"><Dropdown.Item as="button">Vegetarian</Dropdown.Item></Link>
         <Link to="/#israeli"><Dropdown.Item as="button">Israeli Specialties</Dropdown.Item></Link>
         <Link to="/#platters"><Dropdown.Item as="button">Platters</Dropdown.Item></Link>
-        <Link to="/#housespecialties"><Dropdown.Item as="button">House Specialities</Dropdown.Item></Link>
+        <Link to="/#specialties"><Dropdown.Item as="button">House Specialties</Dropdown.Item></Link>
         <Link to="/#heros"><Dropdown.Item as="button">Heros</Dropdown.Item></Link>
         <Link to="/#eggs"><Dropdown.Item as="button">Eggs</Dropdown.Item></Link>
         <Link to="/#pita"><Dropdown.Item as="button">In A Pita</Dropdown.Item></Link>

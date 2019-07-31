@@ -5,10 +5,11 @@ export default function Soups() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="soups" className="section-title">
+      <div className="section-title">
         <h2>Soups</h2>
       </div>
       <div className="section-image">
+        <div id="soups" className="link-route-div"></div>
         <img src={image} alt="soups" />
       </div>
       <div className="section-content">

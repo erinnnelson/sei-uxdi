@@ -5,10 +5,11 @@ export default function Heros() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="heros" className="section-title">
+      <div className="section-title">
         <h2>Heros</h2>
       </div>
       <div className="section-image">
+      <div id="heros" className="link-route-div"></div>
         <img src={image} alt="heros" />
       </div>
       <div className="section-content">

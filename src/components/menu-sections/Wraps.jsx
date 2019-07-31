@@ -6,10 +6,11 @@ export default function Wraps() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="wraps" className="section-title">
+      <div className="section-title">
         <h2>Wraps</h2>
       </div>
       <div className="section-image">
+        <div id="wraps" className="link-route-div"></div>
         <img src={image} alt="wraps" />
       </div>
       <div className="section-content">

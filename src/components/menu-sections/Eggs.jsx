@@ -5,10 +5,11 @@ export default function Eggs() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="eggs" className="section-title">
+      <div className="section-title">
         <h2>Eggs</h2>
       </div>
       <div className="section-image">
+        <div id="eggs" className="link-route-div"></div>
         <img src={image} alt="eggs" />
       </div>
       <div className="section-content">

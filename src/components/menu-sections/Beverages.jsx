@@ -4,10 +4,11 @@ export default function Beverages() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="beverages" className="section-title">
+      <div className="section-title">
         <h2>Beverages</h2>
       </div>
       <div className="section-image">
+        <div id="beverages" className="link-route-div"></div>
       </div>
       <div className="section-content">
         <p>Best Health's Sodas <span>$2.00</span></p>
@@ -24,4 +25,4 @@ export default function Beverages() {
       </div>
     </div>
   )
- }
+}

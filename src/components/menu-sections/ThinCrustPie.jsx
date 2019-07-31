@@ -6,10 +6,11 @@ export default function ThinCrustPie() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="thincrust" className="section-title">
+      <div className="section-title">
         <h2>Thin Crust Pie (Individual) </h2>
       </div>
       <div className="section-image">
+        <div id="thincrust" className="link-route-div"></div>
         <img src={image} alt="thin crust pie" />
       </div>
       <div className="section-content">

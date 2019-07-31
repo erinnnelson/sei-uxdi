@@ -4,10 +4,11 @@ export default function Pizza() {
   return (
     <div className="menu-section-item">
       <hr />
-      <div id="pizza" className="section-title">
+      <div className="section-title">
         <h2>Pizza</h2>
       </div>
       <div className="section-image">
+        <div id="pizza" className="link-route-div"></div>
       </div>
       <div className="section-content">
         <h2 className="section-content-title"><span></span><span>Slice</span><span> 18" Large Pie</span><span> 10" Deep Dish</span><span> 16" Deep Dish</span></h2>
