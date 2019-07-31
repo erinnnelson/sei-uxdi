@@ -74,7 +74,7 @@ header {
 /* //////MENU////// */
 
 hr {
-  border: 9px solid #A6020E;
+  border: 4px solid #A6020E;
   /* border-radius: 5px; */
 }
 
@@ -90,7 +90,10 @@ hr {
 }
 
 .section-title h2 {
-  font-size: 3em;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1.56px;
+  
 }
 
 .section-content p, .section-content h2 {
@@ -100,12 +103,14 @@ hr {
 }
 
 .section-content p {
-  font-size: 2em;
+  font-size: 26px;
+  letter-spacing: 1px;
   text-overflow: wrap;
 }
 
 .section-content p span, .section-content h2 span {
   width: 26.7%;
+  font-size: 28px;
   display: block;
   text-align: left;
 }
