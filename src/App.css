@@ -3,13 +3,37 @@
 body{
   text-align: center;
   margin: 0 auto;
-  width: 50%;
-  font-family: 'Pragati Narrow', sans-serif;
+  width: 992px;
+  font-family: 'SFProText-Regular', sans-serif;
 }
 
 /* //////HEADER/HERO/////// */
 
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -50.5em;
+  height: 100%;
+}
+
+#hero-logo {
+  width: 214px;
+  margin: 40px auto 35px auto;
+}
+
+#hero-contact-info {
+  height: 24px;
+  font-family: SFProText;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+  color: #a6020e;
+}
+
 #nav-buttons {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: flex;
 }
 
@@ -20,9 +44,13 @@ body{
 }
 
 #nav-dropdown {
-width: 100%;
-border: none;
-border-right: 1px solid white;
+  width: 100%;
+  border: none;
+  border-right: 1px solid white;
+}
+
+#nav-button-about {
+  
 }
 
 #nav-button-about, #nav-dropdown {
