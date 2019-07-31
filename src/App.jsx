@@ -26,7 +26,7 @@ class App extends React.Component {
           <HeroInfo />
           <HeroCarousel />
           <NavBar />
-          <AboutUs />
+          <PreMenu />
         </header>
         <main>
           <EntireMenu />
