@@ -83,6 +83,9 @@ hr {
 
 
 /* //////FOOTER////// */
+footer {
+background-color: red;
+}
 
 #foot {
   display: flex;
