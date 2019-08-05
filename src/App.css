@@ -158,12 +158,12 @@ hr {
 
 /* //////ABOUT US////// */
 
-#about {
+#about-us {
   text-align: left;
   padding: 0 30px 30px 30px;
 }
 
-#about h1 {
+#about-us h1 {
   font-size: 28px;
   color: #a6020e;
   letter-spacing: 1.56px;
@@ -171,7 +171,7 @@ hr {
   margin-bottom: 20px;
 }
 
-#about p {
+#about-us p {
   font-size: 18px;
   letter-spacing: 1px;
 }
@@ -280,7 +280,105 @@ color: #F4F1F4;
 }
 
 @media only screen and (max-width: 768px) {
+  
   body {
     width: 320px;
   }
+
+  /* //////HEADER/HERO/////// */
+
+  header {
+    top: -11.4em;
+  }
+
+  #hero-info {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    padding: 0 8px 0 23px;
+  }
+
+  #hero-logo {
+  width: 78px;
+  }
+
+  #hero-contact-info {
+    font-size: 15px;
+    margin: 40px 10px auto 10px;
+  }
+
+  /* //////NAV BAR////// */
+
+  nav {
+    top: 7.5em;
+  }
+
+  #nav-button-about {
+    line-height: 40px;
+  }
+
+  #nav-button-about, #nav-dropdown {
+    height: 36px;
+    font-size: 20px;
+  }
+  
+  /* //////MENU////// */
+
+  .pre-menu {
+    font-size: 15px;
+    padding: 30px 15px 0 15px;
+  }
+
+  .pre-menu h1 {
+    font-size: 20px;
+  }
+
+  .link-route-div {
+    margin-top: -190px;
+  }
+
+  hr {
+    border: 4px solid #A6020E;
+  }
+
+  .section-image img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    top: 9.7em;
+    padding: 0 10px;
+  }
+
+  .section-title h2 {
+    font-size: 18px;
+  }
+
+  .section-content p {
+    font-size: 15px;
+  }
+
+  .section-content p span, .section-content h2 span {
+    font-size: 15px;
+  }
+
+  /* //////ABOUT US////// */
+
+#about-us {
+  padding: 0 15px 15px 15px;
+}
+
+#about-us h1 {
+  font-size: 20px;
+  color: #a6020e;
+  letter-spacing: 1.56px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
 }

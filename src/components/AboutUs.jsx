@@ -3,9 +3,10 @@ import React from 'react'
 
 export default () => {
   return (
-    <div id="about">
+    <div id="about-us">
       <hr />
       <h1>ABOUT US</h1>
+      <div id="about" className="link-route-div"></div>
       <p>Your one stop, neighborhood pizzeria in Fresh Meadows.</p>
       <p>We offer a full menu of Italian, Israeli and Mediterranean specialties, as well as tempting dairy delights.</p>
       <p>Our dishes are always made fresh to order, and we are happy to provide for our customers special dietary needs,
