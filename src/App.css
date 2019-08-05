@@ -84,6 +84,19 @@ nav {
 
 /* //////MENU////// */
 
+.pre-menu {
+  text-align: left;
+  font-size: 21px;
+  padding: 30px 30px 40px 30px;
+}
+
+.pre-menu h1 {
+  letter-spacing: 1.56px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #A6020E;
+}
+
 .link-route-div {
   position: absolute;
   width: 10px;
@@ -145,6 +158,24 @@ hr {
 
 /* //////ABOUT US////// */
 
+#about {
+  text-align: left;
+  padding: 0 30px 30px 30px;
+}
+
+#about h1 {
+  font-size: 28px;
+  color: #a6020e;
+  letter-spacing: 1.56px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
 
 /* //////FOOTER////// */
 footer {
@@ -205,4 +236,51 @@ color: #F4F1F4;
   text-align: right;
 }
 
+@media only screen and (max-width: 992px) {
 
+  body {
+    width: 768px;
+  }
+
+  header {
+    top: -28em;
+  }
+
+  /* //////MENU////// */
+
+  .pre-menu {
+    text-align: left;
+    font-size: 18px;
+    padding: 30px 30px 0 30px;
+  }
+  
+  .pre-menu h1 {
+    letter-spacing: 1.56px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #A6020E;
+  }
+  
+  .section-title h2 {
+    font-size: 20px;
+  }
+
+  .section-content p {
+    font-size: 18px;
+  }
+  
+  .section-content p span, .section-content h2 span {
+    font-size: 18px;
+  }
+  
+  .section-content h2 {
+    font-weight: 700;
+    margin-bottom: 25px;
+  }  
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 320px;
+  }
+}
