@@ -32,7 +32,7 @@ export default () => {
             181-30 Union Turnpike<br />
             Fresh Meadows, Ny 11366</p>
 
-          <p className="footer-copyright">Copyright 2019 | All Rights Reserved</p>
+          <p className="footer-copyright"><br /><br />Copyright 2019 | All Rights Reserved</p>
         </div>
       </div>
     </>
